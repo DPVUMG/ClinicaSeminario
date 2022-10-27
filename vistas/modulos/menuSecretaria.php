@@ -5,28 +5,28 @@
       <ul class="sidebar-menu">
         
         <li>
-          <a href="http://localhost/centros/inicio">
+          <a href="http://67.205.147.53/clinica/inicio">
             <i class="fa fa-home"></i>
             <span>Inicio</span>
           </a>
         </li>
 
         <li>
-          <a href="http://localhost/centros/doctores">
+          <a href="http://67.205.147.53/clinica/doctores">
             <i class="fa fa-user-md"></i>
             <span>Doctores</span>
           </a>
         </li>
 
         <li>
-          <a href="http://localhost/centros/consultorios">
+          <a href="http://67.205.147.53/clinica/consultorios">
             <i class="fa fa-medkit"></i>
             <span>Consultorios</span>
           </a>
         </li>
 
         <li>
-          <a href="http://localhost/centros/pacientes">
+          <a href="http://67.205.147.53/clinica/pacientes">
             <i class="fa fa-users"></i>
             <span>Pacientes</span>
           </a>

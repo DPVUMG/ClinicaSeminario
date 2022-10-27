@@ -94,7 +94,7 @@ class InicioC{
 						<input type="file" name="logo">
 						<br>
 
-						<img src="http://localhost/centros/'.$resultado["logo"].'" width="200px;">
+						<img src="http://67.205.147.53/clinica/'.$resultado["logo"].'" width="200px;">
 
 
 						<input type="hidden" name="logoActual" value="'.$resultado["logo"].'">
@@ -106,7 +106,7 @@ class InicioC{
 						<input type="file" name="favicon">
 						<br>
 
-						<img src="http://localhost/centros/'.$resultado["favicon"].'" width="200px;">
+						<img src="http://67.205.147.53/clinica/'.$resultado["favicon"].'" width="200px;">
 
 
 						<input type="hidden" name="faviconActual" value="'.$resultado["favicon"].'">

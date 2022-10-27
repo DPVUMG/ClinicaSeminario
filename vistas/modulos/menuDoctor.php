@@ -5,7 +5,7 @@
       <ul class="sidebar-menu">
         
         <li>
-          <a href="http://localhost/centros/inicio">
+          <a href="http://67.205.147.53/clinica/inicio">
             <i class="fa fa-home"></i>
             <span>Inicio</span>
           </a>
@@ -13,7 +13,7 @@
 
         <li>
           <?php
-          echo '<a href="http://localhost/centros/Citas/'.$_SESSION["id"].'">';
+          echo '<a href="http://67.205.147.53/clinica/Citas/'.$_SESSION["id"].'">';
           ?>
           
             <i class="fa fa-medkit"></i>
@@ -23,7 +23,7 @@
 
         <li>
        
-       <a href="http://localhost/centros/pacientes">
+       <a href="http://67.205.147.53/clinica/pacientes">
             <i class="fa fa-calendar-check-o"></i>
             <span>Pacientes</span>
           </a>

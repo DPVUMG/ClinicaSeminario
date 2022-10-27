@@ -17,7 +17,7 @@ class ConsultoriosC{
 
 				echo '<script>
 
-				window.location = "http://localhost/centros/consultorios";
+				window.location = "http://67.205.147.53/clinica/consultorios";
 				</script>';
 
 			}
@@ -55,7 +55,7 @@ class ConsultoriosC{
 
 				echo '<script>
 
-				window.location = "http://localhost/centros/consultorios";
+				window.location = "http://67.205.147.53/clinica/consultorios";
 				</script>';
 
 			}
@@ -109,7 +109,7 @@ class ConsultoriosC{
 
 				echo '<script>
 
-				window.location = "http://localhost/centros/consultorios";
+				window.location = "http://67.205.147.53/clinica/consultorios";
 				</script>';
 
 			}

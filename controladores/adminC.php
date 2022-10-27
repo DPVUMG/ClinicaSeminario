@@ -106,12 +106,12 @@ class AdminC{
 
 				}else{
 
-					echo '<td><img src="http://localhost/centros/vistas/img/defecto.png" class="img-responsive" width="40px"></td>';
+					echo '<td><img src="http://67.205.147.53/clinica/vistas/img/defecto.png" class="img-responsive" width="40px"></td>';
 
 				}
 
 				echo '<td>
-					<a href="http://localhost/centros/perfil-A/'.$resultado["id"].'">
+					<a href="http://67.205.147.53/clinica/perfil-A/'.$resultado["id"].'">
 						<button class="btn btn-success"><i class="fa fa-pencil"></i></button>
 					</a>
 				</td>
@@ -161,11 +161,11 @@ class AdminC{
 
 						if($resultado["foto"] == ""){
 
-							echo '<img src="http://localhost/centros/vistas/img/defecto.png" width="200px;">';
+							echo '<img src="http://67.205.147.53/clinica/vistas/img/defecto.png" width="200px;">';
 
 						}else{
 
-							echo '<img src="http://localhost/centros/'.$resultado["foto"].'" width="200px;">';
+							echo '<img src="http://67.205.147.53/clinica/'.$resultado["foto"].'" width="200px;">';
 
 						}
 
@@ -238,7 +238,7 @@ class AdminC{
 
 				echo '<script>
 
-				window.location = "http://localhost/centros/perfil-A/'.$resultado["id"].'";
+				window.location = "http://67.205.147.53/clinica/perfil-A/'.$resultado["id"].'";
 				</script>';
 
 			}

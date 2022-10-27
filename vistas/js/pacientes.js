@@ -122,7 +122,7 @@ $(".SP").change(function(){
 
 	$.ajax({
 
-		url: "http://localhost/centros/ajax/pacientesA.php",
+		url: "http://67.205.147.53/clinica/ajax/pacientesA.php",
 		method: "POST",
 		data: datos,
 		dataType: "json",

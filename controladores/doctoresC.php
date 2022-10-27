@@ -194,7 +194,7 @@ class DoctoresC{
 
 				<td>
 					
-					<a href="http://localhost/centros/perfil-D/'.$resultado["id"].'">
+					<a href="http://67.205.147.53/clinica/perfil-D/'.$resultado["id"].'">
 						<button class="btn btn-success"><i class="fa fa-pencil"></i></button>
 					</a>
 
@@ -276,11 +276,11 @@ class DoctoresC{
 
 							if($resultado["foto"] == ""){
 
-								echo '<img src="http://localhost/centros/vistas/img/defecto.png" class="img-responsive" width="200px">';
+								echo '<img src="http://67.205.147.53/clinica/vistas/img/defecto.png" class="img-responsive" width="200px">';
 
 							}else{
 
-								echo '<img src="http://localhost/centros/'.$resultado["foto"].'" class="img-responsive" width="200px">';
+								echo '<img src="http://67.205.147.53/clinica/'.$resultado["foto"].'" class="img-responsive" width="200px">';
 
 								
 							}
@@ -355,7 +355,7 @@ class DoctoresC{
 
 				echo '<script>
 
-				window.location = "http://localhost/centros/perfil-D/'.$resultado["id"].'";
+				window.location = "http://67.205.147.53/clinica/perfil-D/'.$resultado["id"].'";
 				</script>';
 
 			}

@@ -19,7 +19,7 @@ class CitasC{
 
 				echo '<script>
 
-				window.location = "http://localhost/centros/Doctor/"'.$Did.';
+				window.location = "http://67.205.147.53/clinica/Doctor/"'.$Did.';
 				</script>';
 
 			}
@@ -85,7 +85,7 @@ class CitasC{
 
 				echo '<script>
 
-				window.location = "http://localhost/centros/consultorios";
+				window.location = "http://67.205.147.53/clinica/consultorios";
 				</script>';
 
 			}
