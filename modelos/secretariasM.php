@@ -16,7 +16,7 @@ class SecretariasM extends conexionBD{
 
 		return $pdo -> fetch();
 
-		
+		$pdo -> close();
 		$pdo = null;
 
 	}
@@ -34,7 +34,7 @@ class SecretariasM extends conexionBD{
 
 		return $pdo -> fetch();
 
-	
+		$pdo -> close();
 		$pdo = null;
 
 	}
@@ -63,6 +63,7 @@ class SecretariasM extends conexionBD{
 
 		}
 
+		$pdo -> close();
 		$pdo = null;
 
 	}
@@ -78,7 +79,7 @@ class SecretariasM extends conexionBD{
 
 		return $pdo -> fetchAll();
 
-
+		$pdo -> close();
 		$pdo = null;
 
 	}
@@ -106,7 +107,7 @@ class SecretariasM extends conexionBD{
 
 		}
 
-	
+		$pdo -> close();
 		$pdo = null;
 
 	}
@@ -130,7 +131,7 @@ class SecretariasM extends conexionBD{
 
 		}
 
-	
+		$pdo -> close();
 		$pdo = null;
 
 	}
