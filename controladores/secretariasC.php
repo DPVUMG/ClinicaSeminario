@@ -6,7 +6,7 @@ class SecretariasC{
 	public function IngresarSecretariaC(){
 
 		if(isset($_POST["usuario-Ing"])){
-
+			//validan los caracteres
 			if(preg_match('/^[a-zA-Z0-9]+$/', $_POST["usuario-Ing"]) && preg_match('/^[a-zA-Z0-9]+$/', $_POST["clave-Ing"])){
 
 				$tablaBD = "secretarias";

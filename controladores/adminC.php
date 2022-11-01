@@ -124,7 +124,7 @@ class AdminC{
 
 	//Editar Perfil
 	public function EditarPerfilAdminC(){
-
+		//conexion, base de datos
 		$tablaBD = "administradores";
 
 		$id = $_SESSION["id"];
