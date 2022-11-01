@@ -12,7 +12,7 @@
           <!-- small box -->
           <div class="small-box" style="background-color: #F781D8; color: white;">
             <div class="inner">
-              <h3>Secretaria</h3>
+              <h3>Secre</h3>
 
               <p>Inicie Sesión</p>
             </div>
