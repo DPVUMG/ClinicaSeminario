@@ -29,6 +29,7 @@ class SecretariasC{
 
 					echo '<script>
 
+					window.location = "http://67.205.147.53/clinica/consultorios";
 					window.location = "inicio";
 					</script>';
 
